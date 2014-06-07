@@ -1,0 +1,155 @@
+/* Your Website Styles */
+
+
+
+body {
+	color: #F2EFEF;
+	background-color: #21262C;
+}
+
+
+h1	{
+	font-family: 'Libre Baskerville', serif;	
+	color: #F2EFEF;
+	font-size: 2em;
+	}
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	color: #F2EFEF;
+	font-size: 1.5em;
+	
+}
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	color: #F2EFEF;
+	font-size: 1.125em;
+}
+
+img {
+	width: 550px;
+	
+}
+
+p {
+	font-size: .8em;
+	width: 400px;
+	text-align: justify;
+	font-family: 'Lato', 'sans-serif';
+}
+
+li {
+	list-style: none;
+	font-size: .8em;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#koopa .text {
+position:relative;
+bottom:20px;
+left:0px;
+visibility: hidden;
+}
+
+#koopa:hover .text {
+visibility: visible;
+}
+
+#satori .text {
+position:relative;
+bottom:23px;
+left:0px;
+visibility: hidden;
+}
+
+#satori:hover .text {
+visibility: visible;
+}
+
+#albeni .text {
+position:relative;
+bottom:20px;
+left:0px;
+visibility: hidden;
+}
+
+#albeni:hover .text {
+visibility: visible;
+}
+
+
+
+
+
+.text {
+	font-size: .5em;
+	font-family: 'Lato', 'sans-serif';
+	}
+
+
+.info {
+	float: right;
+	display: inline;
+}
+
+
+
+
+@media screen {
+
+/* =========
+Desktop Styleing
+========= */
+@media screen and (max-width: 1000px) {
+
+	body {
+		background: red;
+
+	}
+}
+
+/* =========
+Tablet Styleing
+========= */
+@media screen and (max-width: 760px) {
+
+	body {
+		background: green;
+	}
+
+}
+
+/* =========
+Mobile Styleing
+========= */
+@media screen and (max-width: 480px) {
+
+	body {
+		background: blue;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
