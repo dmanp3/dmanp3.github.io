@@ -4,25 +4,26 @@
 
 body {
 	color: #F2EFEF;
-	background-color: #21262C;
+	background-color: #F2EFEF;
+	margin: 2%;
 }
 
 
 h1	{
-	font-family: 'Libre Baskerville', serif;	
-	color: #F2EFEF;
+	font-family: 'Josefin Slab', serif;	
+	color: #21262C;
 	font-size: 2em;
 	}
 h2 {
-	font-family: 'Libre Baskerville', serif;
-	color: #F2EFEF;
+	font-family: 'Josefin Slab', serif;
+	color: #21262C;
 	font-size: 1.5em;
 	
 }
 
 h3 {
-	font-family: 'Libre Baskerville', serif;
-	color: #F2EFEF;
+	font-family: 'Josefin Slab', serif;
+	color: #21262C;
 	font-size: 1.125em;
 }
 
@@ -36,14 +37,17 @@ p {
 	width: 400px;
 	text-align: justify;
 	font-family: 'Lato', 'sans-serif';
+	color: #21262C;
 }
 
 li {
 	list-style: none;
 	font-size: .8em;
 	font-family: 'Lato', 'sans-serif';
+	color: #21262C;
 }
 
+/* KOOPA */
 #koopa .text {
 position:relative;
 bottom:20px;
@@ -53,8 +57,10 @@ visibility: hidden;
 
 #koopa:hover .text {
 visibility: visible;
+background: #FC8935;
 }
 
+/* SATORI */
 #satori .text {
 position:relative;
 bottom:23px;
@@ -64,8 +70,10 @@ visibility: hidden;
 
 #satori:hover .text {
 visibility: visible;
+background: #FC8935;
 }
 
+/* ALBENI */
 #albeni .text {
 position:relative;
 bottom:20px;
@@ -75,14 +83,76 @@ visibility: hidden;
 
 #albeni:hover .text {
 visibility: visible;
+background: #FC8935;
+}
+
+/* CVI1 */
+#cvi .text {
+position:relative;
+bottom:20px;
+left:0px;
+visibility: hidden;
+}
+
+#cvi:hover .text {
+visibility: visible;
+background: #FC8935;
+}
+
+/* CVI2 */
+#cvi1 .text {
+position:relative;
+bottom:20px;
+left:0px;
+visibility: hidden;
+}
+
+#cvi1:hover .text {
+visibility: visible;
+background: #FC8935;
+}
+
+/* PERSONA */
+#persona .text {
+position:relative;
+bottom: 20px;
+left: 0px;
+visibility: hidden;
+}
+
+#persona:hover .text {
+visibility: visible;
+background: #FC8935;
+}
+
+/* WEEK2 */
+#week2 .text {
+position:relative;
+bottom:20px;
+left:0px;
+visibility: hidden;
+}
+
+#week2:hover .text {
+visibility: visible;
+background: #FC8935;
+}
+
+#future .text {
+position:relative;
+bottom:20px;
+left:0px;
+visibility: hidden;
+}
+
+#future:hover .text {
+visibility: visible;
+background: #FC8935;
 }
 
 
-
-
-
 .text {
-	font-size: .5em;
+	font-size: .7em;
 	font-family: 'Lato', 'sans-serif';
 	}
 
@@ -103,8 +173,7 @@ Desktop Styleing
 @media screen and (max-width: 1000px) {
 
 	body {
-		background: red;
-
+		
 	}
 }
 
@@ -114,7 +183,19 @@ Tablet Styleing
 @media screen and (max-width: 760px) {
 
 	body {
-		background: green;
+		margin: 2%;
+	}
+
+	img {
+		width: 50%;
+	}
+
+	p {
+		width: 50%;
+	}
+	.text {
+	font-size: .7em;
+	font-family: 'Lato', 'sans-serif';
 	}
 
 }
@@ -125,7 +206,17 @@ Mobile Styleing
 @media screen and (max-width: 480px) {
 
 	body {
-		background: blue;
+		margin: 2%;
+	}
+	img {
+		width: 25%;
+	}
+	p {
+		width: 25%;
+	}
+	.text {
+	font-size: .6em;
+	font-family: 'Lato', 'sans-serif';
 	}
 
 }
